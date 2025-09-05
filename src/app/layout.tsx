@@ -27,6 +27,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+                <img src="/web3.png" alt="web3" width={100} height={60} />
+
         {children}
       </body>
     </html>
